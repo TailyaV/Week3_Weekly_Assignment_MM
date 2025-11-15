@@ -1,28 +1,7 @@
-# Unity week 2: Formal elements
-
-A project with step-by-step scenes illustrating some of the formal elements of game development in Unity, including: 
-
-* Prefabs for instantiating new objects;
-* Colliders for triggering outcomes of actions;
-* Coroutines for setting time-based rules.
-
-Text explanations are available 
-[here](https://github.com/gamedev-at-ariel/gamedev-5782) in folder 04.
-
-## Cloning
-To clone the project, you may need to install git lfs first (if it is not already installed):
-
-    git lfs install 
-
-To clone faster, you can limit the depth to 1 like this:
-
-    git clone --depth=1 https://github.com/<repository-name>.git
-
-When you first open this project, you may not see the text in the score field.
-This is because `TextMeshPro` is not in the project.
-The Unity Editor should hopefully prompt you to import TextMeshPro;
-once you do this, re-open the scenes, and you should be able to see the texts.
-
+# Unity assignment week 3: game of war between airships and spaceships. 
+This game is an airship that fights enemy spaceships. The player starts with 3 lives. Every time a spaceship hits an airship, the player loses a life. When he reaches 0 lives and is disqualified, he will reach Game-Over. Throughout the game, small hearts will appear on the screen, each heart collected will add life to the player. The airship destroys spaceships by shooting. Each hit on the spaceship adds a point to the player. When the player has 10 points, X2 will appear on the screen for 7 seconds, allowing the player to double their score. In each stage, the player can use a power-up once for 7 seconds, during which they can shoot in 3 directions at the same time. To pass a stage, they must go in the direction of the arrow.
+* The player moves using the arrow keys on the keyboard and shoots using the spacebar on the keyboard.
+* itch.io link- https://ateretaliya.itch.io/ex-triggers-week3-taliya
 
 
 ## Credits
@@ -30,6 +9,7 @@ once you do this, re-open the scenes, and you should be able to see the texts.
 Programming:
 * Maoz Grossman
 * Erel Segal-Halevi
+* Taliya Vallerstein
 
 Online courses:
 * [The Ultimate Guide to Game Development with Unity 2019](https://www.udemy.com/the-ultimate-guide-to-game-development-with-unity/), by Jonathan Weinberger
