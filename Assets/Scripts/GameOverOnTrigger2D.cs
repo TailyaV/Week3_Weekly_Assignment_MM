@@ -8,7 +8,7 @@ public class GameOverOnTrigger2D : MonoBehaviour
     [SerializeField] string triggeringTag;
 
     private void OnTriggerEnter2D(Collider2D other){
-        if (other.tag == triggeringTag && enabled){
+        if(other.tag == triggeringTag && enabled){
             Debug.Log("Game over!");
 #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;  // Error on editor 2021.3
