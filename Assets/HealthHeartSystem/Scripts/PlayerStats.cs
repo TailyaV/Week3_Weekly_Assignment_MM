@@ -54,7 +54,7 @@ public class PlayerStats : MonoBehaviour
 
             if (onHealthChangedCallback != null)
                 onHealthChangedCallback.Invoke();
-        }   
+        }
     }
 
     void ClampHealth()

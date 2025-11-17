@@ -5,7 +5,7 @@ public class MultiplyScoreAppear : MonoBehaviour
 {
     [SerializeField]
     [Tooltip("Tag of the score text UI object")]
-     string scoreTextTag = "ScoreNumber";
+    string scoreTextTag = "ScoreNumber";
 
     [SerializeField]
     [Tooltip("Prefab that appears when score reaches the target score")]

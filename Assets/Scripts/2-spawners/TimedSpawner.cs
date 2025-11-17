@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 
 /**
  * This component spawns the given object at fixed time-intervals at its object position.
