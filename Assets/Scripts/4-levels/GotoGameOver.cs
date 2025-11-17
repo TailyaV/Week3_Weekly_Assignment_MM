@@ -4,9 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class GotoGameOver : MonoBehaviour
 {
-    [SerializeField][Tooltip("Lives text")] TextMeshPro livesText;
+    [SerializeField] [Tooltip("Lives text")] TextMeshPro livesText;
     [SerializeField] string triggeringTag;
-    [SerializeField][Tooltip("Name of scene to move to when triggering the given tag")] string sceneName;
+    [SerializeField] [Tooltip("Name of scene to move to when triggering the given tag")] string sceneName;
     public static bool isGameOver = false;
     //[SerializeField] NumberField scoreField;
 
